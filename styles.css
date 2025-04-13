@@ -331,3 +331,44 @@ span {
     font-size: 1em;
     color: #666;
 }
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 10%;
+}
+
+.two-columns .column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.two-columns .left,
+.two-columns .right {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.two-columns h1 {
+    width: 100%;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.two-columns h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.two-columns ul {
+    padding-left: 20px;
+    color: #555;
+}
+
+.two-columns p {
+    color: #555;
+    line-height: 1.6;
+}
